@@ -5,7 +5,7 @@
     <p class="lead text-center my-3">Here are some of my projects I've been working on lately when I have free time!</p>
 
     <div class="d-flex flex-wrap justify-content-center">
-        <div v-for="p in projects" class="card mx-2">
+        <div v-for="p in projects" class="card mx-2 bg-light">
             <img :src="p.img" class="card-img-top">
             <div class="card-body d-flex flex-column justify-content-between">
                 <h5 class="card-title">{{ p.name }}</h5>

@@ -1,26 +1,32 @@
 <template>
     <Navigation />
-    <button class="btn btn-primary" @click="download()">Download</button>
-    <!-- <pdf ref="myResume" src="TJ_Neuenfeldt_Resume.pdf"></pdf> -->
+    <div class="d-flex justify-content-center my-5">
+    <iframe
+        :src="filename"
+        class="pdf"
+    ></iframe>
+    </div>
 </template>
 
 <script lang="js">
 import { defineComponent } from 'vue';
 import Navigation from './Navigation.vue'
-// import pdf from 'vue-pdf'
 
 export default defineComponent({
     components: {
         Navigation,
-        // pdf
     },
-    methods: {
-        download: function() {
-            this.$refs.myResume.print();
+    data() {
+        return {
+            filename: "/TJ_Neuenfeldt_Resume.pdf"
         }
-    }
+    },
 })
 </script>
 
 <style scoped>
+.pdf {
+    width: 80%;
+    height: 80vh;
+}
 </style>
