@@ -45,8 +45,8 @@ const projects = [
 ];
 
 export default function Projects() {
-    const [prevEl, setPrevEl] = useState(null);
-    const [nextEl, setNextEl] = useState(null);
+    const [prevEl, setPrevEl] = useState<HTMLDivElement | null>(null);
+    const [nextEl, setNextEl] = useState<HTMLDivElement | null>(null);
     return (
         <div id="projects" className="min-h-screen pb-32">
             <SectionTitle>PROJECTS</SectionTitle>
