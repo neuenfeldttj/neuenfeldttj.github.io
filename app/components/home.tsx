@@ -11,7 +11,7 @@ export default function Home() {
 
             <div className=" w-[50vw] left-1/2 -translate-x-1/2 z-20 relative">
                 <Image
-                    src="/photos/tj_rosebowl.jpg"
+                    src="/photos/tj_rosebowl.webp"
                     alt="Rose Bowl"
                     width={500}
                     height={500}

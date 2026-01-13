@@ -14,31 +14,31 @@ const projects = [
   {
     title: "AWS OpenSearch",
     description: "Contributed to AWS OpenSearch, re-designed the query profiler based on stakeholder requirements.",
-    image: "/projects/opensearch.png",
+    image: "/projects/opensearch.webp",
     link: "https://github.com/neuenfeldttj/OpenSearch",
   },
   {
     title: "MRover Teleoperation",
     description: "Using Vue.js and Django, teleoperations provides the user interface for operators to control the rover using joysticks and a custom GUI.",
-    image: "/projects/mrover_auton.jpeg",
+    image: "/projects/mrover_auton.webp",
     link: "https://github.com/umrover/mrover-ros/tree/master/src/teleoperation",
   },
   {
     title: "RL-VLM-F Extensions",
     description: "As part of a machine learning capstone, provided extensions to an ICML 2024 reinforcement learning paper.",
-    image: "/projects/rlvlmf.png",
+    image: "/projects/rlvlmf.webp",
     link: "https://eecs-498-group-11.github.io/project-website/",
   },
   {
     title: "Movie Recommender",
     description: "Using Vue.js and Django, created a movie recommender system based on thousands of movies and users.",
-    image: "/projects/movies.jpg",
+    image: "/projects/movies.webp",
     link: "https://github.com/neuenfeldttj/movierecs",
   },
   {
     title: "MNIST Identification",
     description: "Training and testing different CNN model architectures to get the best model for digit identification using PyTorch.",
-    image: "/projects/mnist.jpeg",
+    image: "/projects/mnist.webp",
     link: "https://github.com/neuenfeldttj/MNIST-Project",
   },
   

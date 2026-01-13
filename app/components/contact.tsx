@@ -14,7 +14,7 @@ export default function Contact() {
                 className="flex flex-col items-center px-16"
             >
                 <Image 
-                    src="/contact/linkedin_dark.png"
+                    src="/contact/linkedin_dark.webp"
                     width={100}
                     height={100}
                     alt="LinkedIn link"
@@ -31,7 +31,7 @@ export default function Contact() {
                 className="flex flex-col items-center px-16"
             >
                 <Image 
-                    src="/contact/github_dark.png"
+                    src="/contact/github_dark.webp"
                     width={100}
                     height={100}
                     alt="Github link"
@@ -48,7 +48,7 @@ export default function Contact() {
                 className="flex flex-col items-center px-16"
             >
                 <Image 
-                    src="/contact/email_dark.png"
+                    src="/contact/email_dark.webp"
                     width={100}
                     height={100}
                     alt="Github link"

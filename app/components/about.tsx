@@ -8,7 +8,7 @@ export default function About() {
             <SectionTitle>ABOUT</SectionTitle>
             <div className="flex justify-center pb-8">
             <Image
-                src={"/photos/tj_mrover.jpg"}
+                src={"/photos/tj_mrover.webp"}
                 alt=""
                 width={500}
                 height={500}

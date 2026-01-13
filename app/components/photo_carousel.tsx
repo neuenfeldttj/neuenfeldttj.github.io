@@ -7,8 +7,8 @@ import "swiper/css/navigation";
 import Image from "next/image";
 
 export default function PhotoCarousel() {
-  const horizontal_images = Array.from({ length: 11 }, (_, index) => "/film_photos/horizontal/img_" + (index+1) + ".jpg");
-  const vertical_images = Array.from({ length: 5 }, (_, index) => "/film_photos/vertical/img_" + (index+1) + ".jpg");
+  const horizontal_images = Array.from({ length: 11 }, (_, index) => "/film_photos/horizontal/img_" + (index+1) + ".webp");
+  const vertical_images = Array.from({ length: 5 }, (_, index) => "/film_photos/vertical/img_" + (index+1) + ".webp");
   return (
     <div className="mx-8">
     <Swiper
