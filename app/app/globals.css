@@ -1,0 +1,12 @@
+@import "tailwindcss";
+
+@theme {
+  --color-tan: #C09F80;
+  --color-blackboard: #404040;
+  --color-grain: #d7cec7;
+  --color-green: #327669;
+  --font-sans: var(--font-geist-sans);
+  --font-barlow: var(--font-barlow);
+}
+
+/* --color-blackboard: #565656; */
